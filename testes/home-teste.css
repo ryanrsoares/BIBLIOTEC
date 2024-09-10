@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: dodgerblue;
+} */
+
+header{
+    background-color: rgb(87, 86, 86);
+    height: 100px;
+    width: 100%;
+}
+
+.layout-grid{
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 992px;
+    /* border: 3px solid white; */
+}
+
+header nav{
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color .5s;
+    color: white;
+    font-size: 90%;
+}
+
+.porque-usar {
+    background-color: bisque;
+}
+
+.bibliotec-flex h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.motivo{
+    width: 285px;
+    height: 400px;
+    border: 2px solid green;
+}
+
+.bibliotec-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    border: 3px solid red;
+}
+
