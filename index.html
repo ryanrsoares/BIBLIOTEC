@@ -1,60 +1,168 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibliotec - A sua biblioteca digital</title>
-
     <link rel="stylesheet" href="./css/home.css">
 </head>
+
 <body>
-
-    <header>    
+    <header>
         <div class="layout-grid header-flex">
-            <img src="./imagens/images/images/logo-desktop.svg" alt="Livro aberto com o texto Bibliotec ao seu lado">
-
+            <img src="./imagens/images/images/logo-desktop.svg" alt="Um livro aberto com o texto bibliotec ao lado">
             <nav>
-                <a href="#">quem somos</a>
-                <a href="#">nosso acervo</a>
-                <a href="#">login</a>
+                <a href="#">Quem Somos</a>
+                <a href="#">Nosso Acervo</a>
+                <a href="login.html">Login</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="bibliotec-flex layout-grid">
-            <div class="titulo">
-                <h1>Por que usar bibliotec?</h1>
-                <hr>
+            <section id="banner">
+             <div class="layout-grid  banner-flex">
+                <div class="banner-info">
+                    <h1>Bem-vindo ao Bibliotec!</h1>
+                    <p>O melhor gerenciador para biblioteca de maneira moderna e automatizada!</p>
+                    <button>Acessar</button>
+
+                </div>
+                <img src="./imagens/images/images/banner-mulher-livro.png" alt="banner de mulher com um livro na mão">
             </div>
-          
 
+        </section>
 
-            <article class="motivo">
-                <div class="livro">
-                    <img src="./imagens/images/images/book-solid.svg" alt="livrinho">
+        <section class="porque-usar">
+            <div class="bibliotec-flex">
+
+                <h2>Por que usar a Biblio Tec?</h2>
+
+                <article class="motivo">
+                    <div class="borda">
+                        <img src="./imagens/images/images/book-solid.svg" alt="livro">
+                    </div>
+
+                    <h3>Reserve seu livro online</h3>
+
+                    <p>Imagine livros que ama listados em um unico lugar</p>
+                </article>
+
+                <article class="motivo">
+                    <div class="borda">
+                        <img src="./imagens/images/images/check-solid.svg" alt="menu de hamburguer">
+                    </div>
+
+                    <h3>Visualize se seu livro estará disponivel</h3>
+
+                    <p>Imagine livros que ama listados em um unico lugar</p>
+                </article>
+
+                <article class="motivo">
+                    <div class="borda">
+                        <img src="./imagens/images/images/heart-solid.svg" alt="coração">
+                    </div>
+
+                    <h3>Faça sua lista de favoritos </h3>
+
+                    <p>Imagine livros que ama listados em um unico lugar</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="totalmente">
+            <div class="layout-grid totalmente-flex">
+                <img src="./imagens/images/images/totalmente-gratis.png" alt="acesso a plataforma">
+                <div class="totalmente-info">
+                    <h2>Acesse a nossa plataforma!</h2>
+                    <p>Faça o login ou silicite cadastro para a bibliotecária</p>
+                    <button>Acessar</button>
                 </div>
-                <h3>Reserve seu livro online</h3> <br><br><br>
-                <p>imagine livros que ama listados em um único lugar</p>
-            </article>
-            <article class="motivo">
-                <div class="check-list">
-                    <img src="./imagens/images/images/check-solid.svg" alt="check">
-                </div>
-                <h3>visualize se seu livro estará disponiévl</h3> <br><br><br>
-                <p>imagine livros que ama listados em um único lugar</p>
-            </article>
-            <article class="motivo">
-                <div class="corazon">
-                    <img src="./imagens/images/images/heart-solid.svg" alt="coração">
-                </div>
-                <h3>Faça sua lista de favoritos</h3><br><br><br>
-                <p>imagine livros que ama listados em um único lugar</p>
-            </article>
+            </div>
+        </section>
+
+        <section class="livro">
+            <div class="top-4">
+
+                <h2> <br>Top 4 livros recomendados</h2>
+
+                <article class="recomendados">
+                    <img src="./imagens/images/images/livro1.png">
+
+                    <h4>A escolha do bem e do mal</h4>
+
+                    <p class="recomendados-bold">Autor(a):</p>
+                    <p>Soman chainani</p>
+                </article>
+
+                <article class="recomendados">
+                    <img src="./imagens/images/images/livro2.png">
+
+                    <h4>Filhas da lua</h4>
+
+                    <p class="recomendados-bold">Autor(a):</p>
+                    <p>Carolina França</p>
+                </article>
+
+                <article class="recomendados">
+                    <img src="./imagens/images/images/livro3.png">
+
+                    <h4>TI Para negocios</h4>
+
+                    <p class="recomendados-bold">Autor(a):</p>
+                    <p>Edson Perin</p>
+                </article>
+
+                <article class="recomendados">
+                    <img src="./imagens/images/images/livro4.png">
+
+                    <h4>Mestre do Tempo</h4>
+
+                    <p class="recomendados-bold">Autor(a):</p>
+                    <p>R.V Campbell</p>
+                </article>
+
+            </div>
         </section>
     </main>
 
-    <footer>vou comer seu cu</footer>
+    <footer class="header-flex">
+        <div class= "layout-grid organizacao">
 
+            <section class="logos">
+                <img src="./imagens/images/images/logo-desktop.svg">
+                <img src="./imagens/images/images/logo-senai-vermelho.png">
+            </section>
+
+            <nav class="info">
+                <section>
+                    <h2>Biblioteca</h2>
+                    <p>Baixar biblioteca <br> Suporte ao usuário</p>
+                </section>
+
+                <section>
+                    <h2>Quem somos</h2>
+                    <p>Clientes <br> Benefícios</p>
+                </section>
+            </nav>
+
+            <div class="apps">
+                <h2>Siga nas redes sociais</h2>
+                <img src="./imagens/images/images/facebook-icon.png">
+                <img src="./imagens/images/images/instagram-icon.png">
+                <img src="./imagens/images/images/linkedin-icon.png">
+            </div>
+
+            <hr>
+
+            <section class="barra">
+                <a href="#">©Biblio Tec</a>
+                <a href="#">Acessibilidade</a>
+                <a href="#">Politica e Privacidade</a>
+                <a href="#">Termos e Condições</a>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>
