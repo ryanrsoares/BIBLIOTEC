@@ -3,33 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - A sua biblioteca digital</title>
+    <title>login-bibliotec</title>
     <link rel="stylesheet" href="./css/login.css">
     <style>
         body{
-            background-image: url(./imagens/images/images/login-bk-desktop.png);
             background-size: 100%;
+            background-image: url("./imagens/images/images/login-bk-desktop.png");
         }
     </style>
 </head>
+
 <body>
     <header>
-        <div class="layout-grid login">
-            <img src="./imagens/images/images/logo-desktop.svg" alt="Um livro aberto com o texto bibliotec ao lado">
+        <div class="layout-grid header-flex">
+            <img src="./imagens/images/images/logo-desktop.svg" alt="Logo da marca da BiblioTec">
             <nav>
-                <a href="index.html"> < </a>
-                <a href="#">Quem Somos</a>
-                <a href="#">Nosso Acervo</a>
+                <a href="./index.html"> <img src="./imagens/U Turn to Left.png" alt="">
+                </a>
+                <a href="#">Quem somos</a>
+                <a href="#">Nosso acervo</a>
                 <a href="#">Login</a>
             </nav>
         </div>
     </header>
 
-    <main>
-        <!-- <form action="/pagina-processa-dados-do-form" method="post"></form> -->
-        <div class="login">
 
-        </div>
+    <main class="layout-grid login-flex">
+        
+            <form class="login">
+            <h1>Entre na biblio Tec</h1>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="email@gmail.com">
+            <label for="senha">Senha</label>
+            <input type="senha" id="senha" placeholder="*************">
+            <a href="#">Esqueceu a senha </a>
+            <button > ENTRAR</button>
+
+        </form>
+        
+
     </main>
+    
 </body>
 </html>

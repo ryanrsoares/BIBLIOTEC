@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <h1>Campos de Formulários</h1>
+
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Seu Nome" required>
+
+        <br><br>
+        <label for="email">E-mail</label>
+        <input type="E-mail" autocomplete="off" id="email" placeholder="seu email" required>
+        <br><br>
+        <label for="idade">Idade</label>
+        <input type="number" min="0" max="130" id="idade" placeholder="sua idade" required>
+        <br><br>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="*******" required>
+
+        <label for="confirmar">Confirmar a senha</label>
+        <input type="confirmar" id="senha" placeholder="*******" required>
+        <br><br>
+        
+        
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado">
+            <option value="">Selecione</option>
+            <option value="ac">Acre</option>
+            <option value="al">ALagoas</option>
+            <option value="ap">Amapá</option>
+            <option value="am">Amazonas</option>
+            <option value="ba">Bahia</option>
+            <option value="ce">Ceará</option>
+            <option value="es">Espírito Santo</option>
+            <option value="go">Goiás</option>
+            <option value="ma">Maranhão</option>
+            <option value="mt">Mato Grosso</option>
+            <option value="ms">Mato Grosso do Sul</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="pa">Pará</option>
+            <option value="pb">Paraíba</option>
+            <option value="pr">Paraná</option>
+            <option value="pe">Pernambuco</option>
+            <option value="pi">Piauí</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="rn">Rio Grande do Norte</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="ro">Rondônia</option>
+            <option value="rr">Roraima</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="sp">São Paulo</option>
+            <option value="se">Sergipe</option>
+            <option value="to">Tocantins</option>
+        </select>
+
+        <br><br>
+        <label for="">Cadastro Ativo</label><br>
+        <input type="radio" name="cadativo" value="sim"> sim
+        <input type="radio" name="cadativo" value="nao"> não
+        
+        <br><br>
+        <label for="">Hobbies</label>
+        <input type="checkbox" name="hobbs[]"> Ouvir Musicas
+        <input type="checkbox" name="hobbs[]"> Games
+        <input type="checkbox" name="hobbs[]"> Treinar
+        <input type="checkbox" name="hobbs[]"> fazer comida
+        <input type="checkbox" name="hobbs[]"> Dormir
+        <input type="checkbox" name="hobbs[]"> sair
+        <input type="checkbox" name="hobbs[]"> Aprender
+
+        <br><br>
+        
+        <label for="consideracoes">Considerações</label><br>
+        <textarea name="consideracoes" id="consideracoes"></textarea>
+        
+        <br><br>
+        <button> Enviar</button>
+    </form>
+</body>
+
+</html>
