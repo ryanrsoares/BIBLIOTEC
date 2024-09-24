@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -9,160 +9,222 @@
 </head>
 
 <body>
+
     <header>
-        <div class="layout-grid header-flex">
-            <img src="./imagens/images/images/logo-desktop.svg" alt="Um livro aberto com o texto bibliotec ao lado">
-            <nav>
+        <div class="Layout-grid header-flex">
+            <img src="./imagens/images/images/logo-desktop.svg" alt="Livro aberto com o texto bibliotec ao seu lado">
+            <nav id="menu" class="menu">
                 <a href="#">Quem Somos</a>
                 <a href="#">Nosso Acervo</a>
                 <a href="login.html">Login</a>
             </nav>
+            <img src="./imagens/images/images/menu-hamburger.png" alt="" onclick="mostrarMenu()">
         </div>
+
+
     </header>
 
     <main>
-            <section id="banner">
-             <div class="layout-grid  banner-flex">
-                <div class="banner-info">
-                    <h1>Bem-vindo ao Bibliotec!</h1>
-                    <p>O melhor gerenciador para biblioteca de maneira moderna e automatizada!</p>
-                    <button>Acessar</button>
+        <!-----------------------------Section 1, Banner Bem-vindo ao Bibliotec--------------------------->
+        <section id="Banner">
+            <div class="Layout-grid Banner-flex">
 
-                </div>
-                <img src="./imagens/images/images/banner-mulher-livro.png" alt="banner de mulher com um livro na mão">
+                <div class="Dividir">
+                <article class="Bem-vindo">
+                    <h2>Bem-vindo ao bibliotec!</h2>
+
+                    <p> O melhor gerenciador para biblioteca de maneira moderna e automatizada!</p>
+
+                    <button> Acessar </button>
+
+                </article>
+
+                <article class="Mulher-do-banner">
+                    <img src="./imagens/images/images/banner-mulher-livro.png" alt="Mulher do livro">
+                </article>
+
             </div>
 
+            </div>
         </section>
 
-        <section class="porque-usar">
-            <div class="bibliotec-flex">
 
-                <h2>Por que usar a Biblio Tec?</h2>
 
-                <article class="motivo">
-                    <div class="borda">
-                        <img src="./imagens/images/images/book-solid.svg" alt="livro">
-                    </div>
 
+        <!-----------------------------Section 1, Banner Bem-vindo ao Bibliotec--------------------------->
+        <!--------------------Section 2, Imagine livros que ama listado em um so lugar-------------------->
+        <section class="bibliotec-flex">
+            <div class="Layout-grid bibliotec-flex">
+                <div class="Titulo">
+                    <h1> Porque usar a Bibliotec?</h1>
+                    <hr>
+                </div>
+
+
+                <article class="Articule">
+
+                    <article class="Circulo"><img src="./imagens/images/images/book-solid.svg" alt="livrozin"></article>
                     <h3>Reserve seu livro online</h3>
+                    <p>Imagine livros que ama listados em um só lugar</p>
 
-                    <p>Imagine livros que ama listados em um unico lugar</p>
                 </article>
 
-                <article class="motivo">
-                    <div class="borda">
-                        <img src="./imagens/images/images/check-solid.svg" alt="menu de hamburguer">
-                    </div>
-
+                <article class="Articule">
+                    <article class="Circulo"><img src="./imagens/images/images/check-solid.svg" alt=""></article>
                     <h3>Visualize se seu livro estará disponivel</h3>
+                    <p>Imagine livros que ama listados em um só lugar</p>
 
-                    <p>Imagine livros que ama listados em um unico lugar</p>
                 </article>
 
-                <article class="motivo">
-                    <div class="borda">
-                        <img src="./imagens/images/images/heart-solid.svg" alt="coração">
+                <article class="Articule">
+                    <article class="Circulo"><img src="./imagens/images/images/heart-solid.svg" alt=""></article>
+                    <h3>Faça sua lista de favoritos</h3>
+                    <p>Imagine todos os livros que ama listados em um só lugar</p>
+
+                </article>
+
+            </div>
+        </section>
+        <!--------------------Section 2, Imagine livros que ama listado em um so lugar-------------------->
+         <!--------------------Section 3, Totalmente Gratis-------------------->
+         <section id="Benner">
+                <div class="Layout-grid Benner-flex">
+                    <div class="Dividir">
+                        <article class="totalmente">
+                            <img src="./imagens/images/images/totalmente-gratis.png" alt="">
+                        </article>
+
+                        <article class="nossa">
+                            <h2>
+                                Acesse a nossa plataforma!
+                            </h2>
+
+                            <p>
+                                Faça o login ou solicite <br> cadastro para a bibliotecária.
+                            </p>
+
+                            <button>
+                                Acessas
+                            </button>
+
+                        </article>
+
+
+
+
+
                     </div>
-
-                    <h3>Faça sua lista de favoritos </h3>
-
-                    <p>Imagine livros que ama listados em um unico lugar</p>
-                </article>
-            </div>
-        </section>
-
-        <section id="totalmente">
-            <div class="layout-grid totalmente-flex">
-                <img src="./imagens/images/images/totalmente-gratis.png" alt="acesso a plataforma">
-                <div class="totalmente-info">
-                    <h2>Acesse a nossa plataforma!</h2>
-                    <p>Faça o login ou silicite cadastro para a bibliotecária</p>
-                    <button>Acessar</button>
                 </div>
-            </div>
-        </section>
 
-        <section class="livro">
-            <div class="top-4">
+         </section>
 
-                <h2> <br>Top 4 livros recomendados</h2>
+          <!--------------------Section 3, Totalmente Gratisr-------------------->
 
-                <article class="recomendados">
-                    <img src="./imagens/images/images/livro1.png">
+        <!------------------------------Section 4; Top 4 livros recomendados------------------------------>
+        <section class="Books-flex">
 
-                    <h4>A escolha do bem e do mal</h4>
+            <div class="Layout-grid Books-flex">
+                <div class="Titulo">
+                    <h1>Top 4 livros recomendados</h1>
+                    <hr>
+                </div>
+                <!--------------------------------------------------------------------->
+                <article class="Livros">
+                    <img src="./imagens/images/images/livro1.png" alt="">
 
-                    <p class="recomendados-bold">Autor(a):</p>
-                    <p>Soman chainani</p>
+                    <h2 class="Livros">A ESCOLHA DO BEM <br>E DO MAL</h2>
+
+                    <h3>Autor(a)</h3>
+
+                    <p>Soman Chainani</p>
+
                 </article>
 
-                <article class="recomendados">
-                    <img src="./imagens/images/images/livro2.png">
+                <article class="Livros">
+                    <img src="./imagens/images/images/livro2.png" alt="">
 
-                    <h4>Filhas da lua</h4>
+                    <h2 class="Livros">FILHAS DA LUA</h2>
 
-                    <p class="recomendados-bold">Autor(a):</p>
+                    <h3>Autor(a)</h3>
+
                     <p>Carolina França</p>
+
                 </article>
 
-                <article class="recomendados">
-                    <img src="./imagens/images/images/livro3.png">
+                <article class="Livros">
+                    <img src="./imagens/images/images/livro3.png" alt="">
+                    <h2 class="Livros">TI PARA NEGÓCIOS</h2>
 
-                    <h4>TI Para negocios</h4>
+                    <h3>Autor(a)</h3>
 
-                    <p class="recomendados-bold">Autor(a):</p>
                     <p>Edson Perin</p>
+
                 </article>
 
-                <article class="recomendados">
-                    <img src="./imagens/images/images/livro4.png">
+                <article class="Livros">
+                    <img src="./imagens/images/images/livro4.png" alt="">
 
-                    <h4>Mestre do Tempo</h4>
+                    <h2 class="Livros">MESTRES DO TEMPO</h2>
 
-                    <p class="recomendados-bold">Autor(a):</p>
-                    <p>R.V Campbell</p>
+                    <h3>Autor(a)</h3>
+
+                    <p>Soman Chainani</p>
+
                 </article>
+
 
             </div>
         </section>
+        <!------------------------------Section 2; Top 4 livros recomendados------------------------------>
+
+
     </main>
 
-    <footer class="header-flex">
-        <div class= "layout-grid organizacao">
+    <footer>
 
-            <section class="logos">
-                <img src="./imagens/images/images/logo-desktop.svg">
-                <img src="./imagens/images/images/logo-senai-vermelho.png">
-            </section>
+        <div class="Layout-grid footer-flex">
+            <div class="conteudo">
+                <article class="logos-img">
+                    <img class="marginal" src="./imagens/images/images/logo-recortado.png" alt="Logo">
 
-            <nav class="info">
-                <section>
-                    <h2>Biblioteca</h2>
-                    <p>Baixar biblioteca <br> Suporte ao usuário</p>
-                </section>
-
-                <section>
-                    <h2>Quem somos</h2>
-                    <p>Clientes <br> Benefícios</p>
-                </section>
-            </nav>
-
-            <div class="apps">
-                <h2>Siga nas redes sociais</h2>
-                <img src="./imagens/images/images/facebook-icon.png">
-                <img src="./imagens/images/images/instagram-icon.png">
-                <img src="./imagens/images/images/linkedin-icon.png">
+                    <img src="./imagens/images/images/logo-senai-vermelho.png" alt="Senai">
+                </article>
+                <div class="tres-caixa">
+                    <nav class="nicksnav">
+                        <a href="#">Biblioteca</a>
+                        <p>Baixar Aplicativo</p>
+                        <p>Suporte ao usuário</p>
+                    </nav>
+                    <nav class="nicksnav">
+                        <a href="#">Quem Somos</a>
+                        <p>Clientes</p>
+                        <p>Benefícios</p>
+                    </nav>
+                    <article class="icones">
+                        <a href="#">Siga nas redes sociais</a>
+                        <img src="./imagens/images/images/facebook-icon.png" alt="facebook">
+                        <img src="./imagens/images/images/instagram-icon.png" alt="instagram">
+                        <img src="./imagens/images/images/linkedin-icon.png" alt="linkedin">
+                    </article>
+                </div>
             </div>
-
-            <hr>
-
-            <section class="barra">
-                <a href="#">©Biblio Tec</a>
+            <hr class="Lbranco">
+            <div class="Linha">
+                <a href="#">@Bibliotec</a>
                 <a href="#">Acessibilidade</a>
-                <a href="#">Politica e Privacidade</a>
+                <a href="#">Política e Privacidade</a>
                 <a href="#">Termos e Condições</a>
-            </section>
+
+            </div>
         </div>
+
+
     </footer>
+<script>
+    function mostrarMenu(){
+        document.getElementById("menu").classList.toggle("mostrar-menu");
+    }
+</script>
 </body>
+
 </html>
